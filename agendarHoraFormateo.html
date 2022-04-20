@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Restauración</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="perfil.css">
+    </head>
+    <body>
+        <header>
+            <table class="tablaHeader">
+                <tbody class="bodyHeader">
+                    <td class="celdaHeader">
+                        <a href="index.html">
+                            <img class="logoTienda" src="imagenes/logos/logoTienda.png">
+                        </a>
+                    </td>
+                </tbody>
+                <tbody>
+                    <td class="celdaHeader">
+                        Reparaciones y venta de componentes
+                    </td>
+                </tbody>
+            </table>
+            <hr>
+        </header>
+        
+        <h1>
+            <p>
+                Restauración de fábrica
+            </p>
+        </h1>
+
+        <p class="textoNormal" align="justify">
+            En este formulario puedes asignar una hora para realizar un formateo a tu PC y restaurarlo con los valores de fábrica. <br>
+            Una vez que hayas rellenado el formulario se verificará si es que la hora se encuentra disponible.<br>
+            Para poder atenderte deberás llevar tu equipo a nuestro establecimiento para poder arreglarlo.
+        </p>
+
+        <form>
+            <table>
+                <tr>
+                    <td class="tdContactanos">
+                        <p>
+                            Nombre completo
+                        </p>
+                    </td>
+                    <td>
+                        <input type="text" class="textoLargoContacto" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tdContactanos">
+                        <p>
+                            Nombre completo
+                        </p>
+                    </td>
+                    <td>
+                        <input type="text" class="textoLargoContacto" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tdContactanos">
+                        <p>
+                            Tipo de dispositivo
+                        </p>
+                    </td>
+                    <td class="tdContactanos">
+                        Desktop
+                        <input type="radio" value="Desktop" name="tipoDispositivo" style="margin-right: 70px;" required>
+                        Laptop
+                        <input type="radio" value="Laptop" name="tipoDispositivo" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tdContactanos">
+                        <p>
+                            Oficina donde será atendido
+                        </p>
+                    </td>
+                    <td>
+                        <select>
+                            <option>Santiago Centro</option>
+                            <option>Valparaíso</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tdContactanos">
+                        <P>
+                            Fecha en la que será atendido
+                        </P>
+                    </td>
+                    <td>
+                        <input type="date" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tdContactanos">
+                        <P>
+                            Hora en la que será atendido
+                        </P>
+                    </td>
+                    <td>
+                        <input type="time" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="reset" value="Reestablecer" class="botonesContactanos">
+                    </td>
+                    <td align="left">
+                        <input type="submit" value="Comprobar disponibilidad" class="botonesContactanos"> 
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+
+        <hr>
+        <footer>
+
+            <table class="tbodyContacto">
+                <tbody>
+                    <tr>
+                        <td colspan="2">
+                            <p>
+                                <h2 class="seleccionServicio">
+                                    Contactos
+                                </h2>
+                            </p>
+                            <br class="brGrande">
+                        </td>
+                        <td rowspan="4" class="trLogo">
+                            <img src="imagenes/logos/logoTienda.png">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdContacto">Correo:</td>
+                        <td class="tdContacto">contacto@computerAid.cl</td>
+                        <td class="tdContacto"></td>
+                    </tr>
+                    <tr>
+                        <td class="tdContacto">Número telefónico:</td>
+                        <td class="tdContacto">+56 9 34728832</td>
+                    </tr>
+                    <tr>
+                        <td class="tdContacto">Formulario de contacto:</td>
+                        <td>
+                            <a href="contactanos.html">
+                                <img class="imagenMeta" src="imagenes/imagenesMeta/contacto.png">
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </footer>
+    </body>
+</html>

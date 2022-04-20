@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Finalizar compra</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="perfil.css">
+    </head>
+    <body>
+        <header>
+            <table class="tablaHeader">
+                <tbody class="bodyHeader">
+                    <td class="celdaHeader">
+                        <a href="index.html">
+                            <img class="logoTienda" src="imagenes/logos/logoTienda.png">
+                        </a>
+                    </td>
+                </tbody>
+                <tbody>
+                    <td class="celdaHeader">
+                        Reparaciones y venta de componentes
+                    </td>
+                </tbody>
+            </table>
+            <hr>
+        </header>
+        
+        <h1>
+            <p>
+                Finaliza tu compra
+            </p>
+        </h1>
+
+        <p class="textoNormal" align="justify">
+            Para finalizar tu compra, necesitamos que nos indiques tu identidad, al igual que la dirección a la cual se enviará tu compra.
+        </p>
+
+        <form>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="tdContactanos">
+                            <p>
+                                Nombre completo
+                            </p>
+                        </td>
+                        <td>
+                            <input type="text" class="textoLargoContacto" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdContactanos">
+                            <p>
+                                Nombre de la persona que<br>recibirá el paquete
+                            </p>
+                        </td>
+                        <td>
+                            <input type="text" class="textoLargoContacto" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdContactanos">
+                            <p>
+                                Teléfono movil
+                            </p>
+                        </td>
+                        <td>
+                            <input type="text" class="textoLargoContacto" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdContactanos">
+                            <p>
+                                Correo electrónico
+                            </p>
+                        </td>
+                        <td>
+                            <input type="email" class="textoLargoContacto" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdContactanos">
+                            <p>
+                                Courier
+                            </p>
+                        </td>
+                        <td class="tdContactanos">
+                            Chilexpress
+                            <input type="radio" value="chilexpress" name="courier" style="margin-right: 20px;" required>
+                            Starken
+                            <input type="radio" value="starken" name="courier" style="margin-right: 20px;" required>
+                            <br>
+                            Bluexpress
+                            <input type="radio" value="bluexpress" name="courier" style="margin-right: 20px;" required>
+                            Retiro en tienda
+                            <input type="radio" value="tienda" name="courier" style="margin-right: 20px;" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdContactanos">
+                            <p>
+                                Región de destino
+                            </p>
+                        </td>
+                        <td>
+                            <input type="text" class="textoLargoContacto" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdContactanos">
+                            <P>
+                                Ciudad de destino
+                            </P>
+                        </td>
+                        <td>
+                            <input type="text" class="textoLargoContacto" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdContactanos">
+                            <P>
+                                Dirección
+                            </P>
+                        </td>
+                        <td>
+                            <input type="text" class="textoLargoContacto" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdContactanos">
+                            <P>
+                                Cupón de descuento<br>(Opcional)
+                            </P>
+                        </td>
+                        <td>
+                            <input type="text" class="textoLargoContacto">
+                        </td>
+                    </tr>
+                    <tr>
+                        <tr>
+                            <td class="tdContactanos">
+                                <p>
+                                    Medio de pago
+                                </p>
+                            </td>
+                            <td>
+                                <select required>
+                                    <option disabled selected value="nada">---------------------------------</option>
+                                    <option value="transferencia">Transferencia bancaria</option>
+                                    <option value="webpay">WebPay</option>
+                                    <option value="servipag">Servipag</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="reset" value="Reestablecer datos" class="botonesContactanos">
+                        </td>
+                        <td align="left">
+                            <input type="submit" value="Comprar ahora" class="botonesContactanos"> 
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </form>
+
+        <hr>
+        <footer>
+
+            <table class="tbodyContacto">
+                <tbody>
+                    <tr>
+                        <td colspan="2">
+                            <p>
+                                <h2 class="seleccionServicio">
+                                    Contactos
+                                </h2>
+                            </p>
+                            <br class="brGrande">
+                        </td>
+                        <td rowspan="4" class="trLogo">
+                            <img src="imagenes/logos/logoTienda.png">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdContacto">Correo:</td>
+                        <td class="tdContacto">contacto@computerAid.cl</td>
+                        <td class="tdContacto"></td>
+                    </tr>
+                    <tr>
+                        <td class="tdContacto">Número telefónico:</td>
+                        <td class="tdContacto">+56 9 34728832</td>
+                    </tr>
+                    <tr>
+                        <td class="tdContacto">Formulario de contacto:</td>
+                        <td>
+                            <a href="contactanos.html">
+                                <img class="imagenMeta" src="imagenes/imagenesMeta/contacto.png">
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </footer>
+    </body>
+</html>
